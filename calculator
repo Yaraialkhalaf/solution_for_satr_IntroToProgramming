@@ -1,0 +1,37 @@
+This is the second and last project in introduction to programming
+
+The aim of this project is to create a calculator using pseudocode
+
+The instruction are :
+1- take two input as double for the users and assigned them to X and y 
+2- take the operation as an input for the user
+3- print the output 
+
+My pseudocode :
+Var double X 
+Var double y 
+
+Print (“Enter operation”)
+Input (operation)
+
+
+ If (X  = string) {
+Print (X  “ is not a valid number”)
+
+ If (y = string) {
+Print (y  “ is not a valid number”)
+
+Else If (operation  == + ) 
+Print X + y  
+
+Else If (operation  == - ) 
+Print X - y  
+
+Else If (operation  == * ) 
+Print X * y  
+
+Else If (operation  == / ) 
+Print X / y  
+
+Else 
+Print (“ the wrong operation has been entered, try again”)
