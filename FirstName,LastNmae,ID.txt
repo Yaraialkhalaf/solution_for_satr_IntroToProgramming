@@ -1,1 +1,70 @@
-﻿
+This was one of the two final projects in the course introduction to programming
+
+The course was aiming to teach you the logic of coding without focusing heavily on the centrex 
+
+Those where the instructions for the sudo code :
+1- Write a program that receives the First Name, Last Name, and Employee ID from the user. Validate the input according to these rules:
+
+2- Ensure the First Name and Last Name are at least two characters long.
+
+3- Ensure the Employee ID consists of numbers only.
+
+4- Display appropriate error messages for any invalid data.
+
+Example for error mistakes : 
+Enter the first name: J
+Enter the last name:
+Enter the ID: 1234d
+"J" is not a valid first name. It is too short.
+The last name must be filled in.
+1234d is not a valid ID.
+
+Explain for the correct output :
+Enter the first name: Jimmy
+Enter the last name: James
+Enter the ID:  123456
+
+
+My answer : 
+String firstName
+String lastName
+Integer ID
+
+Print (“enter your first name”)
+Input (firstName)
+Print (“enter your last name”)
+Input (lastName)
+Print (“enter your ID”)
+Input (ID)
+
+
+If (firstName. Length < 2) {
+Print ( firstName “is an incorrect name. It’s too short”)
+}
+
+Else If (lastName.Length < 2) {
+Print ( lastName “is an incorrect name. It’s too short”)
+}
+
+Else If (firstName = null) {
+Print ( “the first name must be filled”)
+}
+
+Else If (lastName = null) {
+Print ( “the last name must be filled”)
+}
+
+Else If (ID = null) {
+Print ( “ID must be filled”)
+}
+
+Else If (ID = string) {
+Print ( ID “ is not a valid ID”)
+}
+
+Else {
+Print ( “ no errors found”)
+Print (firstName)
+Print (lastName)
+Print (ID)
+}﻿
